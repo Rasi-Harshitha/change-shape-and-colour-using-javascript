@@ -1,0 +1,53 @@
+/* General styling for the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container to center and stack the shape and button vertically */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 30px; /* Adjusted space between shape and button */
+}
+
+/* Styling for the shape */
+#shape {
+    width: 100px;
+    height: 100px;
+     /* Default blue color for square */
+    transition: all 0.5s ease; /* Smooth transition */
+}
+
+/* Square shape */
+.square {
+    border-radius: 0;
+    background-color: #3498db; /* Blue color for square */
+}
+
+/* Circle shape */
+.circle {
+    border-radius: 50%;
+    background-color: #e74c3c; /* Red color for circle */
+}
+
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71; /* Green color */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
